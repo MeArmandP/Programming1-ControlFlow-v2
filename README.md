@@ -19,10 +19,16 @@ Required commits per kata: **scaffold → feature → refactor** (see the Commit
 - Include short comments that explain your logic choices (why you chose a loop, condition, or data shape).
 - Keep the `globalThis.__katas` lines intact so tests can import your function.
 
+From the repository root (`Programming1-ControlFlow-v2`), run:
+
 ```
- cd into the js-katas from the command line and navigate to the folder where the katas are stored on your computer. Then run:
-node test-runner.js
-# or
+cd js-katas
+npm test
+```
+
+If your terminal is already inside `js-katas`, run:
+
+```
 npm test
 ```
 
